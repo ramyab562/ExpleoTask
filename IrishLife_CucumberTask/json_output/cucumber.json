@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-07-26T17:01:39.529Z",
+        "start_timestamp": "2021-07-26T21:54:01.441Z",
         "line": 3,
         "name": "HomePage Contact link",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9229000000,
+              "duration": 19414000000,
               "status": "passed"
             },
             "line": 4,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 252000000,
+              "duration": 208000000,
               "status": "passed"
             },
             "line": 5,
@@ -43,7 +43,7 @@
           },
           {
             "result": {
-              "duration": 9066000000,
+              "duration": 9560000000,
               "status": "passed"
             },
             "line": 6,
@@ -56,7 +56,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-07-26T17:01:58.197Z",
+        "start_timestamp": "2021-07-26T21:54:30.801Z",
         "line": 8,
         "name": "Find out more link",
         "description": "",
@@ -66,7 +66,7 @@
         "steps": [
           {
             "result": {
-              "duration": 8714000000,
+              "duration": 12651000000,
               "status": "passed"
             },
             "line": 9,
@@ -78,7 +78,7 @@
           },
           {
             "result": {
-              "duration": 1335000000,
+              "duration": 3932000000,
               "status": "passed"
             },
             "line": 10,
@@ -96,7 +96,7 @@
           },
           {
             "result": {
-              "duration": 6981000000,
+              "duration": 7284000000,
               "status": "passed"
             },
             "line": 11,
@@ -119,7 +119,7 @@
     "description": "",
     "id": "irish-life-application-qa-task",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/com.qa.features/HomePage.feature",
+    "uri": "file:///C:/workspace/IrishLife_CucumberTask/src/test/resources/com.qa.features/HomePage.feature",
     "tags": []
   }
 ]

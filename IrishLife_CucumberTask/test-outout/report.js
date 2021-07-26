@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/com.qa.features/HomePage.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:///C:/workspace/IrishLife_CucumberTask/src/test/resources/com.qa.features/HomePage.feature");
 formatter.feature({
   "name": "Irish Life Application QA Task",
   "description": "",

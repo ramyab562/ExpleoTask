@@ -39,19 +39,23 @@ public class HomePage extends TestBase{
 	}
 	
 	//Actions:
+	//Accept Cookies
 	public void acceptCookieOption(){
 		CookieOption.click();
 	}
 	
+	//Get Page Title
 	public String getPageTitle(){
 		return driver.getTitle();
 	}
 	
+	//Navigate to new page from top Navigation header
 	public void clickOnTopNavigationLink(String topNavigation){
 		WebElement topNavigationLink = driver.findElement(By.xpath("//span[contains(text(),'"+topNavigation+"')]"));
 		actions.moveToElement(topNavigationLink).click().perform();
 	}
 	
+	//Click on a link in the page
 	public void clickOnLink(String navigationLink){
 		WebElement link = driver.findElement(By.xpath("//span[contains(text(),'"+navigationLink+"')]"));
 		actions.moveToElement(link).click().perform();
