@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="10" time="98.464">
+<testcase classname="Expleo Test Task" name="Demo Page text verification" time="10.578">
+<system-out><![CDATA[Given user is on the demo page..............................................passed
+Then get the title of the page..............................................passed
+And user should see the text 'Challenging DOM'..............................passed
+Then close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Expleo Test Task" name="Click the first button" time="9.494">
+<system-out><![CDATA[Given user is on the demo page..............................................passed
+When user sees the three buttons on the page................................passed
+Then user should be able to click on the First button.......................passed
+Then close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Expleo Test Task" name="Click the third button" time="9.59">
+<system-out><![CDATA[Given user is on the demo page..............................................passed
+When user sees the three buttons on the page................................passed
+Then user should be able to click on the Third button.......................passed
+Then close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Expleo Test Task" name="Click the second button" time="9.963">
+<system-out><![CDATA[Given user is on the demo page..............................................passed
+When user sees the three buttons on the page................................passed
+Then user should be able to click on the Second button......................passed
+Then close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Expleo Test Task" name="Click the delete link" time="9.141">
+<system-out><![CDATA[Given user is on the demo page..............................................passed
+When user sees the "delete" link on the page in the table...................passed
+Then user should be able to click on the "delete" link on row "1"...........passed
+Then close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Expleo Test Task" name="Click the edit link" time="9.218">
+<system-out><![CDATA[Given user is on the demo page..............................................passed
+When user sees the "edit" link on the page in the table.....................passed
+Then user should be able to click on the "edit" link on row "1".............passed
+Then close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Expleo Test Task" name="Get cell value" time="9.665">
+<system-out><![CDATA[Given user is on the demo page..............................................passed
+Then user should get the cell value from the row number "5" and column number "6".passed
+Then close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Expleo Test Task" name="Get number of columns in the table" time="9.313">
+<system-out><![CDATA[Given user is on the demo page..............................................passed
+Then user should get the number of columns in the table.....................passed
+Then close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Expleo Test Task" name="Get text in the page footer" time="11.502">
+<system-out><![CDATA[Given user is on the demo page..............................................passed
+Then user should get the page footer text...................................passed
+Then close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Expleo Test Task" name="Get number of rows in the table" time="9.269">
+<system-out><![CDATA[Given user is on the demo page..............................................passed
+Then user should get the number of rows in the table........................passed
+Then close the browser......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

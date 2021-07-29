@@ -1,0 +1,702 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-29T21:16:29.839Z",
+        "line": 3,
+        "name": "Demo Page text verification",
+        "description": "",
+        "id": "expleo-test-task;demo-page-text-verification",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9096000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the demo page",
+            "match": {
+              "location": "com.qa.stepdefinitions.DemoPageSteps.user_is_on_the_demo_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 32000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "get the title of the page",
+            "match": {
+              "location": "com.qa.stepdefinitions.DemoPageSteps.get_the_title_of_the_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 63000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should see the text \u0027Challenging DOM\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Challenging DOM\u0027",
+                  "offset": 25
+                }
+              ],
+              "location": "com.qa.stepdefinitions.DemoPageSteps.user_should_see_the_text(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1175000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "close the browser",
+            "match": {
+              "location": "com.qa.stepdefinitions.DemoPageSteps.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Expleo Test Task",
+    "description": "",
+    "id": "expleo-test-task",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com.qa.features/CheckText.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-29T21:16:40.449Z",
+        "line": 3,
+        "name": "Click the first button",
+        "description": "",
+        "id": "expleo-test-task;click-the-first-button",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7890000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the demo page",
+            "match": {
+              "location": "com.qa.stepdefinitions.DemoPageSteps.user_is_on_the_demo_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 133000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user sees the three buttons on the page",
+            "match": {
+              "location": "com.qa.stepdefinitions.DemoPageSteps.user_sees_the_three_buttons_on_the_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 496000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should be able to click on the First button",
+            "match": {
+              "location": "com.qa.stepdefinitions.DemoPageSteps.user_should_be_able_to_click_on_the_button1()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 965000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "close the browser",
+            "match": {
+              "location": "com.qa.stepdefinitions.DemoPageSteps.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Expleo Test Task",
+    "description": "",
+    "id": "expleo-test-task",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com.qa.features/ClickButtonOne.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-29T21:16:49.958Z",
+        "line": 3,
+        "name": "Click the third button",
+        "description": "",
+        "id": "expleo-test-task;click-the-third-button",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7935000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the demo page",
+            "match": {
+              "location": "com.qa.stepdefinitions.DemoPageSteps.user_is_on_the_demo_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 135000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user sees the three buttons on the page",
+            "match": {
+              "location": "com.qa.stepdefinitions.DemoPageSteps.user_sees_the_three_buttons_on_the_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 393000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should be able to click on the Third button",
+            "match": {
+              "location": "com.qa.stepdefinitions.DemoPageSteps.user_should_be_able_to_click_on_the_button3()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1109000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "close the browser",
+            "match": {
+              "location": "com.qa.stepdefinitions.DemoPageSteps.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Expleo Test Task",
+    "description": "",
+    "id": "expleo-test-task",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com.qa.features/ClickButtonThree.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-29T21:16:59.562Z",
+        "line": 3,
+        "name": "Click the second button",
+        "description": "",
+        "id": "expleo-test-task;click-the-second-button",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8236000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the demo page",
+            "match": {
+              "location": "com.qa.stepdefinitions.DemoPageSteps.user_is_on_the_demo_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 149000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user sees the three buttons on the page",
+            "match": {
+              "location": "com.qa.stepdefinitions.DemoPageSteps.user_sees_the_three_buttons_on_the_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 398000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should be able to click on the Second button",
+            "match": {
+              "location": "com.qa.stepdefinitions.DemoPageSteps.user_should_be_able_to_click_on_the_button2()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1164000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "close the browser",
+            "match": {
+              "location": "com.qa.stepdefinitions.DemoPageSteps.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Expleo Test Task",
+    "description": "",
+    "id": "expleo-test-task",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com.qa.features/ClickButtonTwo.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-29T21:17:09.535Z",
+        "line": 3,
+        "name": "Click the delete link",
+        "description": "",
+        "id": "expleo-test-task;click-the-delete-link",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7585000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the demo page",
+            "match": {
+              "location": "com.qa.stepdefinitions.DemoPageSteps.user_is_on_the_demo_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 60000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user sees the \"delete\" link on the page in the table",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"delete\"",
+                  "offset": 14
+                }
+              ],
+              "location": "com.qa.stepdefinitions.DemoPageSteps.user_sees_the_edit_link_on_the_page(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 86000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should be able to click on the \"delete\" link on row \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"delete\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"1\"",
+                  "offset": 57
+                }
+              ],
+              "location": "com.qa.stepdefinitions.DemoPageSteps.user_should_be_able_to_click_on_the_link(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1396000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "close the browser",
+            "match": {
+              "location": "com.qa.stepdefinitions.DemoPageSteps.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Expleo Test Task",
+    "description": "",
+    "id": "expleo-test-task",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com.qa.features/ClickDeleteButton.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-29T21:17:18.686Z",
+        "line": 3,
+        "name": "Click the edit link",
+        "description": "",
+        "id": "expleo-test-task;click-the-edit-link",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7459000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the demo page",
+            "match": {
+              "location": "com.qa.stepdefinitions.DemoPageSteps.user_is_on_the_demo_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 69000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user sees the \"edit\" link on the page in the table",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"edit\"",
+                  "offset": 14
+                }
+              ],
+              "location": "com.qa.stepdefinitions.DemoPageSteps.user_sees_the_edit_link_on_the_page(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 102000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user should be able to click on the \"edit\" link on row \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"edit\"",
+                  "offset": 36
+                },
+                {
+                  "val": "\"1\"",
+                  "offset": 55
+                }
+              ],
+              "location": "com.qa.stepdefinitions.DemoPageSteps.user_should_be_able_to_click_on_the_link(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1570000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "close the browser",
+            "match": {
+              "location": "com.qa.stepdefinitions.DemoPageSteps.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Expleo Test Task",
+    "description": "",
+    "id": "expleo-test-task",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com.qa.features/ClickEditButton.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-29T21:17:27.937Z",
+        "line": 3,
+        "name": "Get cell value",
+        "description": "",
+        "id": "expleo-test-task;get-cell-value",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8169000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the demo page",
+            "match": {
+              "location": "com.qa.stepdefinitions.DemoPageSteps.user_is_on_the_demo_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 51000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should get the cell value from the row number \"5\" and column number \"6\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"5\"",
+                  "offset": 51
+                },
+                {
+                  "val": "\"6\"",
+                  "offset": 73
+                }
+              ],
+              "location": "com.qa.stepdefinitions.DemoPageSteps.user_should_get_the_cell_value_from_the_row_number_and_column_number(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1432000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "close the browser",
+            "match": {
+              "location": "com.qa.stepdefinitions.DemoPageSteps.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Expleo Test Task",
+    "description": "",
+    "id": "expleo-test-task",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com.qa.features/GetCellValue.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-29T21:17:37.616Z",
+        "line": 3,
+        "name": "Get number of columns in the table",
+        "description": "",
+        "id": "expleo-test-task;get-number-of-columns-in-the-table",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8136000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the demo page",
+            "match": {
+              "location": "com.qa.stepdefinitions.DemoPageSteps.user_is_on_the_demo_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 37000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should get the number of columns in the table",
+            "match": {
+              "location": "com.qa.stepdefinitions.DemoPageSteps.user_should_get_the_number_of_columns_in_the_table()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1123000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "close the browser",
+            "match": {
+              "location": "com.qa.stepdefinitions.DemoPageSteps.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Expleo Test Task",
+    "description": "",
+    "id": "expleo-test-task",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com.qa.features/GetColCount.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-29T21:17:46.937Z",
+        "line": 3,
+        "name": "Get text in the page footer",
+        "description": "",
+        "id": "expleo-test-task;get-text-in-the-page-footer",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10685000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the demo page",
+            "match": {
+              "location": "com.qa.stepdefinitions.DemoPageSteps.user_is_on_the_demo_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 54000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should get the page footer text",
+            "match": {
+              "location": "com.qa.stepdefinitions.DemoPageSteps.user_should_get_the_page_footer_text()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 747000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "close the browser",
+            "match": {
+              "location": "com.qa.stepdefinitions.DemoPageSteps.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Expleo Test Task",
+    "description": "",
+    "id": "expleo-test-task",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com.qa.features/GetPageFooterText.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-29T21:17:58.448Z",
+        "line": 3,
+        "name": "Get number of rows in the table",
+        "description": "",
+        "id": "expleo-test-task;get-number-of-rows-in-the-table",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8054000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the demo page",
+            "match": {
+              "location": "com.qa.stepdefinitions.DemoPageSteps.user_is_on_the_demo_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 34000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should get the number of rows in the table",
+            "match": {
+              "location": "com.qa.stepdefinitions.DemoPageSteps.user_should_get_the_number_of_rows_in_the_table()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1164000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "close the browser",
+            "match": {
+              "location": "com.qa.stepdefinitions.DemoPageSteps.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Expleo Test Task",
+    "description": "",
+    "id": "expleo-test-task",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com.qa.features/GetRowsCount.feature",
+    "tags": []
+  }
+]
